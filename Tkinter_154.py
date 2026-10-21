@@ -20,3 +20,7 @@ judul = tk.Label(
    )
 judul.grid(row=0, column=0, columnspan=4, pady=(0, 16))
    
+for nomor in range(1, 11):
+       kolom = 0 if nomor <= 5 else 2
+       baris = nomor if nomor <= 5 else nomor - 5
+   
