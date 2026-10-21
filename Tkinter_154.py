@@ -33,3 +33,7 @@ for nomor in range(1, 11):
 tombol = tk.Button(
        frame,
        text="Hasil Prediksi",
+       command=tampilkan_hasil,
+       padx=12,
+       pady=6,
+   )
