@@ -40,3 +40,9 @@ tombol = tk.Button(
 tombol.grid(row=6, column=0, columnspan=4, pady=(16, 8))
    
 hasil_var = tk.StringVar(value="Hasil prediksi akan ditampilkan di sini.")
+hasil = tk.Label(
+       frame,
+       textvariable=hasil_var,
+       font=("Arial", 12, "bold"),
+       fg="darkblue",
+   )
