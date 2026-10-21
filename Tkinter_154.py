@@ -37,3 +37,5 @@ tombol = tk.Button(
        padx=12,
        pady=6,
    )
+tombol.grid(row=6, column=0, columnspan=4, pady=(16, 8))
+   
