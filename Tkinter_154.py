@@ -29,4 +29,7 @@ for nomor in range(1, 11):
   
        input_nilai = tk.Entry(frame, width=10)
        input_nilai.grid(row=baris, column=kolom + 1, padx=(0, 20), pady=4)
- 
+  
+tombol = tk.Button(
+       frame,
+       text="Hasil Prediksi",
