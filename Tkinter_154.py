@@ -10,3 +10,9 @@ root = tk.Tk()
 root.title("Aplikasi Prediksi Prodi Pilihan")
 root.resizable(False, False)
 
+frame = tk.Frame(root, padx=20, pady=20)
+frame.pack()
+
+judul = tk.Label(
+    frame,
+   
