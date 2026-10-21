@@ -46,3 +46,6 @@ hasil = tk.Label(
        font=("Arial", 12, "bold"),
        fg="darkblue",
    )
+hasil.grid(row=7, column=0, columnspan=4, pady=(4, 0))
+   
+root.mainloop()
