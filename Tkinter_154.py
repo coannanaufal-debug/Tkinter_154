@@ -26,4 +26,7 @@ for nomor in range(1, 11):
 
        label = tk.Label(frame, text=f"Nilai Mata Pelajaran {nomor}:")
        label.grid(row=baris, column=kolom, sticky="w", padx=(0, 8), pady=4)
+  
+       input_nilai = tk.Entry(frame, width=10)
+       input_nilai.grid(row=baris, column=kolom + 1, padx=(0, 20), pady=4)
  
