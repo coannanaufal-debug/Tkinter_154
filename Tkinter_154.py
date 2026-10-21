@@ -18,3 +18,5 @@ judul = tk.Label(
     text="Aplikasi Prediksi Prodi Pilihan",
     font=("Arial", 16, "bold"),
    )
+judul.grid(row=0, column=0, columnspan=4, pady=(0, 16))
+   
