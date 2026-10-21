@@ -15,4 +15,6 @@ frame.pack()
 
 judul = tk.Label(
     frame,
-   
+    text="Aplikasi Prediksi Prodi Pilihan",
+    font=("Arial", 16, "bold"),
+   )
